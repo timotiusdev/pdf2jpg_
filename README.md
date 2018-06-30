@@ -1,16 +1,22 @@
 convert.py is simple tool to convert your multiple pages pdf into three channel jpg files.
 
 For single files just import convert to your code
-```import convert
+```
+import convert
 filename = "1.pdf"
-convert.pdf2jpg (filename)```
+convert.pdf2jpg (filename)
+```
 
 For check and convert a single file use inputCheck
-```import convert
+```
+import convert
 filename = "1.pdf"
-convert.inputCheck (filename)```
+convert.inputCheck (filename)
+```
 
 For whole directory check use dirCheck
-```import convert
+```
+import convert
 DIR = "./pdfs/"
-convert.dirCheck (DIR)```
+convert.dirCheck (DIR)
+```
