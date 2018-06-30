@@ -25,7 +25,7 @@ def inputCheck(filename):
         convert = img.convert('RGB')
         convert.save(str(filename))
     else:
-        print("input file (*{}) is not supported".format((str(filename[-4:]))))
+        print("input file (*{}) is not images or pdfs".format((str(filename[-4:]))))
 
 #CHECK IN DIRECTORY
 def dirCheck(DIR):
