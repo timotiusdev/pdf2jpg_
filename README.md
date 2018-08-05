@@ -1,6 +1,6 @@
 convert.py is simple tool to convert your multiple pages pdf into three channel jpg files.
 
-<h1>requirements</h1>
+<h1>Requirements</h1>
 ```
 pip install wand
 pip install Pillow
