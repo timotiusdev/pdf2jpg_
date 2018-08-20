@@ -26,6 +26,7 @@ def inputCheck(filename):
         convert.save(str(filename))
     else:
         print("input file (*{}) is not images or pdfs".format((str(filename[-4:]))))
+    return filename
 
 #CHECK IN DIRECTORY
 def dirCheck(DIR):
